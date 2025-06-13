@@ -1,0 +1,23 @@
+# Core libraries
+numpy
+matplotlib
+Pillow
+torch
+torchvision
+
+# Audio processing
+librosa
+
+# FastAPI and related
+fastapi
+uvicorn
+gunicorn
+
+# CORS support for APIs
+aiofiles  # Required by FastAPI for file handling
+python-multipart  # For form parsing
+requests
+httpx
+
+# Optional (used in threading and subprocess, but part of stdlib)
+# subprocess, threading, os, json, time, atexit are built-in and not needed here
